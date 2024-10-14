@@ -1,4 +1,4 @@
-# Web-Development-Projects - TOTAL (2)
+# Web-Development-Projects - TOTAL (3)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -21,5 +21,17 @@
 5. Save and load the HTML to display numbered bullets instead of regular bullets.
 
 <img width="716" alt="pic5" src="https://github.com/user-attachments/assets/0a67ca9a-1ebc-43ac-96c5-7cc729daab68">
+
+##  PROJECT - 3 : Spanish Color Learner Webpage (HTML & CSS)
+## Algorithm
+1. Create an HTML file `(index.html)`.
+2. Create a CSS file `(style.css)`.
+3. Link the CSS file to the HTML file using `<link>` in the <head>.
+4. In the CSS file, assign colors to each heading using their id.
+5. Set all headings to have "font-weight: normal" using the .color-title class.
+6. Set all images to be 200px in both height and width using the img selector.
+
+<img width="272" alt="image" src="https://github.com/user-attachments/assets/0754ef86-2bae-4c24-bcb1-9303f6e990de">
+
 
 More projects will be added soon
