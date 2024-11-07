@@ -1,4 +1,4 @@
-# Web-Development-Projects - TOTAL (4)
+# Web-Development-Projects - TOTAL (5)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -47,5 +47,24 @@
 10. Save and run the HTML file in a browser to display the styled content.
 
 <img width="960" alt="pic4" src="https://github.com/user-attachments/assets/5c116fd0-8d2b-4c1d-8f3f-78227f825af1">
+
+## PROJECT - 5 : Name Card Webpage (FLASK)
+## Algorithm
+1. **Initialize Flask Application**:
+   - Import the `Flask` class from the Flask package.
+   - Create an instance of the `Flask` application.
+
+2. **Define Route**:
+   - Set up the root URL route (`'/'`) with a function `greet()`.
+   - Use the `render_template` function to return the `index.html` file when the route is accessed.
+
+3. **Run Application**:
+   - Use the `app.run(debug=True)` method to start the Flask server with debugging enabled if the script is run as the main program.
+
+
+
+https://github.com/user-attachments/assets/457d8097-6ec2-472b-af12-1d8bf0df7168
+
+
 
 More projects will be added soon
