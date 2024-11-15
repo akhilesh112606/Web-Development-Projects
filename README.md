@@ -1,4 +1,4 @@
-# Web-Development-Projects - TOTAL (5)
+# Web-Development-Projects - TOTAL (6)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -61,9 +61,41 @@
 3. **Run Application**:
    - Use the `app.run(debug=True)` method to start the Flask server with debugging enabled if the script is run as the main program.
 
+## PROJECT - 6 : Blog Website (FLASK)
+## Algorithm
+1. **Import Required Libraries:**
+   - Import `Flask`, `render_template`, and `url_for` from the Flask framework.
+   - Import the `requests` module for handling HTTP requests.
+
+2. **Define Constants:**
+   - Set `API_ENDPOINT` to the URL of the API that provides JSON data.
+
+3. **Initialize Flask Application:**
+   - Create an instance of the `Flask` class.
+
+4. **Fetch Data from API:**
+   - Use the `requests.get()` method to fetch data from the API endpoint.
+   - Parse the JSON response and store it in `server_data`.
+
+5. **Define Routes:**
+   - **Root Route (`/`):**
+     - Render the `index.html` template and pass `server_data` to it.
+   - **About Route (`/about`):**
+     - Render the `about.html` template.
+   - **Contact Route (`/contact`):**
+     - Render the `contact.html` template.
+   - **Post Route (`/post/<int:index>`):**
+     - Extract the post ID (`index`) from the URL.
+     - Search for the post in `server_data` that matches the provided ID.
+     - Render the `post.html` template and pass the matched post to it.
+
+6. **Run the Application:**
+   - Check if the script is run directly (i.e., `__name__ == "__main__"`).
+   - Start the Flask development server by calling `app.run()`.
 
 
-https://github.com/user-attachments/assets/457d8097-6ec2-472b-af12-1d8bf0df7168
+
+https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 
 
 
