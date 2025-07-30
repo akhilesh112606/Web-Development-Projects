@@ -97,6 +97,32 @@
 
 https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 
+## PROJECT - 7 : To-Do List Web App (HTML, CSS, JS)
+
+## Algorithm
+
+1. **Start** by creating the HTML structure with a `<div>` container for the app.
+2. **Add** an `<input>` field for entering new tasks and a button labeled "Add Task".
+3. **Create** an empty `<ul>` list element to display the tasks dynamically.
+4. **Style** the app using CSS to enhance visual appearance (e.g., layout, colors, completed task styles).
+5. **In JavaScript**:
+   1. **Select** the input, button, and list elements using `document.getElementById` or `querySelector`.
+   2. **Add** an event listener on the "Add Task" button:
+      - **On click**, get the input value.
+      - **Create** a new `<li>` element with a `data-id` and task text.
+      - **Append** it to the `<ul>`.
+   3. **Attach** a click event to each `<li>` to:
+      - **Toggle** a `completed` class using `classList.toggle()`.
+      - **Optionally**, apply styles like `line-through` for completed tasks.
+   4. **Add** a delete button in each `<li>`:
+      - **On click**, use `e.stopPropagation()` to prevent bubbling.
+      - **Remove** the task from the list.
+6. **Store** tasks in `localStorage` (optional) to retain them after refreshing the page.
+7. **Retrieve** and render stored tasks on page load.
+8. **End** the script.
+"""
+
+<img width="534" height="356" alt="image" src="https://github.com/user-attachments/assets/cd78c526-2f45-4680-bfc3-726b5d064f86" />
 
 
 More projects will be added soon
