@@ -124,5 +124,35 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 
 <img width="534" height="356" alt="image" src="https://github.com/user-attachments/assets/cd78c526-2f45-4680-bfc3-726b5d064f86" />
 
+## PROJECT - 8 : Weather Finder Web App (HTML, CSS, JS)
+
+## Algorithm
+
+1. **Start** by creating an `index.html` document with:
+   1. An `<input>` element to enter the city name.
+   2. A `<button>` with the text "Get Weather".
+   3. Hidden `<div>`s for displaying weather data and error messages.
+
+2. **Create** a `style.css` file to style the layout and hide elements using a `.hidden` class (`display: none`).
+
+3. **Create** a `script.js` file and write JavaScript logic:
+   1. **Wait** for the DOM to load using `DOMContentLoaded` event.
+   2. **Grab** necessary DOM elements using `getElementById`.
+   3. **Attach** a click event listener to the "Get Weather" button.
+   4. **Extract** the city name from the input field and trim whitespace.
+   5. **Use** `fetch()` to make an API call to OpenWeatherMap using the city name and API key.
+   6. **If** the API responds with valid data:
+      1. **Destructure** data like city name, temperature, and weather description.
+      2. **Convert** temperature from Kelvin to Celsius.
+      3. **Update** the DOM with city, temperature, and weather info.
+      4. **Show** the weather info section and **hide** the error message.
+   7. **If** the city is invalid or API fails:
+      1. **Hide** the weather info section.
+      2. **Display** an error message.
+
+4. **Test** the application by entering valid and invalid city names.
+
+<img width="397" height="273" alt="image" src="https://github.com/user-attachments/assets/baa9978c-d0ec-4285-876c-21c8dc7e414d" />
+
 
 More projects will be added soon
