@@ -154,5 +154,38 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 
 <img width="397" height="273" alt="image" src="https://github.com/user-attachments/assets/baa9978c-d0ec-4285-876c-21c8dc7e414d" />
 
+## PROJECT - 9 : Simple E-Commerce Web App (HTML, CSS, JS)
+
+## Algorithm
+
+1. **Start** by designing a basic HTML structure:
+   - Use a `<div class="container">` to hold the entire content.
+   - Add an `<h1>` for the "Products" heading and an empty `<div id="product-list">` where products will be dynamically added via JavaScript.
+
+2. **Create** a section for the shopping cart:
+   - Add an `<h2>` labeled "Shopping Cart".
+   - Include a `<div id="cart-items">` to list cart items.
+   - Use a `<p id="empty-cart">` as a placeholder for an empty cart message.
+   - Create a hidden `<div id="cart-total">` to display the total price and a "Checkout" button once items are added.
+
+3. **Style** the page using `styles.css`:
+   - Apply styles for layout, spacing, button design, and visibility toggling using `.hidden` class.
+
+4. **In JavaScript**:
+   1. **Define** a list of products as objects with properties like name, price, and image.
+   2. **Render** products in the `#product-list` dynamically using JavaScript DOM manipulation.
+   3. **Add** a button to each product to allow adding items to the cart.
+   4. **Handle cart state**:
+      - Use an array to store added products.
+      - Update the cart items list and total price dynamically.
+      - Show/hide the `#cart-total` and `#empty-cart` based on cart contents.
+   5. **Attach event listeners** to "Add to Cart" and "Checkout" buttons:
+      - On adding, update the cart array and UI.
+      - On checkout, clear the cart and display a thank-you message (optional).
+
+5. **End** the script.
+
+<img width="902" height="419" alt="image" src="https://github.com/user-attachments/assets/88388bbd-e1cf-4951-8a5a-c373fb61ed1d" />
+
 
 More projects will be added soon
