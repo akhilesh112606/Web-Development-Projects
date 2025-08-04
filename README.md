@@ -1,4 +1,4 @@
-# Web-Development-Projects - TOTAL (6)
+# Web-Development-Projects - TOTAL (9)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
