@@ -1,4 +1,4 @@
-# Web-Development-Projects - TOTAL (9)
+# Web-Development-Mini-Projects - TOTAL (10)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -186,6 +186,23 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 5. **End** the script.
 
 <img width="902" height="419" alt="image" src="https://github.com/user-attachments/assets/88388bbd-e1cf-4951-8a5a-c373fb61ed1d" />
+
+## PROJECT - 10 : Number Adder (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Create** a basic HTML layout with a container and heading.
+2. **Add** two number input fields (`num1`, `num2`).
+3. **Place** an **Add Numbers** button to trigger calculation.
+4. **Create** a result display area.
+5. **Style** the UI using CSS for clean layout and icons.
+6. **Use JavaScript** to:
+   - Read input values
+   - Convert them to numbers
+   - Add them on button click
+   - Display the result dynamically
+7. **End**.
+<img width="954" height="473" alt="image" src="https://github.com/user-attachments/assets/4ae324eb-b6f7-4814-813e-258b7bc956cd" />
 
 
 More projects will be added soon
