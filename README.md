@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (10)
+# Web-Development-Mini-Projects - TOTAL (11)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -204,5 +204,27 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 7. **End**.
 <img width="954" height="473" alt="image" src="https://github.com/user-attachments/assets/4ae324eb-b6f7-4814-813e-258b7bc956cd" />
 
+## PROJECT - 11 : Guess the Number Game (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Create** a basic HTML structure with a container and heading.
+2. **Display** instructions to guess a number between **1 and 10**.
+3. **Add** a number input field for the user’s guess.
+4. **Place** a **Guess** button to submit the input.
+5. **Create** a result display area to show feedback.
+6. **Style** the UI using CSS for a clean, centered card layout.
+7. **Use JavaScript** to:
+   - Generate a random number between 1 and 10
+   - Read the user’s input
+   - Validate the input
+   - Compare the guess with the random number
+   - Display appropriate feedback:
+     - **Too Low** if the guess is smaller
+     - **Too High** if the guess is larger
+     - **Correct Guess** if the number matches
+8. **Repeat** the process on every button click until the correct number is guessed.
+9. **End**.
+<img width="1894" height="940" alt="image" src="https://github.com/user-attachments/assets/5601d9e4-824a-4238-bce0-4b5f6192b6a8" />
 
 More projects will be added soon
