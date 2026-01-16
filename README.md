@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (11)
+# Web-Development-Mini-Projects - TOTAL (12)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -224,7 +224,28 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
      - **Too High** if the guess is larger
      - **Correct Guess** if the number matches
 8. **Repeat** the process on every button click until the correct number is guessed.
-9. **End**.
+10. **End**.
 <img width="1894" height="940" alt="image" src="https://github.com/user-attachments/assets/5601d9e4-824a-4238-bce0-4b5f6192b6a8" />
+
+## PROJECT - 12 : Profile Card Generator (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Create** a basic HTML structure with a container and heading.
+2. **Add** a **Generate** button to trigger profile creation.
+3. **Select** required DOM elements using JavaScript.
+4. **Create** a function to generate a profile card dynamically.
+5. **Inside the function**:
+   - Create a `div` element for the profile card
+   - Create an `img` element for the profile image
+   - Create a heading element for the name
+   - Create a paragraph element for the description
+6. **Append** all created elements to the profile card.
+7. **Insert** the profile card into the main container.
+8. **Display** each new profile card below the previous one.
+9. **Repeat** the process on every button click to generate multiple cards.
+10. **End**.
+<img width="565" height="729" alt="image" src="https://github.com/user-attachments/assets/44d05b46-dd57-4d64-86fe-a7743b976fea" />
+
 
 More projects will be added soon
