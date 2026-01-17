@@ -247,5 +247,61 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 10. **End**.
 <img width="565" height="729" alt="image" src="https://github.com/user-attachments/assets/44d05b46-dd57-4d64-86fe-a7743b976fea" />
 
+## PROJECT - 13 : Loan Calculator (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Create** a basic HTML structure for the loan calculator interface.
+2. **Add** input fields for:
+   - Loan Amount
+   - Annual Interest Rate
+   - Loan Term (Years)
+3. **Add** a **Calculate Loan** button to trigger the calculation.
+4. **Select** all required DOM elements using JavaScript.
+5. **Create** a function to calculate loan details.
+6. **Inside the function**:
+   - Read loan amount, interest rate, and loan term from inputs
+   - Convert annual interest rate to monthly interest
+   - Convert loan term from years to months
+7. **Apply** the loan EMI formula to calculate the monthly payment.
+8. **Calculate** the total payment and total interest.
+9. **Display** the calculated values using animation for better user experience.
+10. **Repeat** the process on every button click with updated inputs.
+11. **End**.
+<img width="1224" height="898" alt="image" src="https://github.com/user-attachments/assets/3fec5df6-59cf-4732-8b24-6899c0c0e18f" />
+
+## PROJECT - 14 : Countdown Timer (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Create** a basic HTML structure for the countdown timer interface.
+2. **Add** input fields for:
+   - Target Date & Time
+3. **Add** buttons for:
+   - Start Countdown
+   - Pause Countdown
+   - Resume Countdown
+   - Cancel/Reset Countdown
+4. **Select** all required DOM elements using JavaScript.
+5. **Create** a function to start the countdown.
+6. **Inside the start function**:
+   - Read the target date & time from the input
+   - Calculate the remaining time in milliseconds
+   - Validate that the date is in the future
+7. **Create** a function to update the timer every second:
+   - Convert remaining time to days, hours, minutes, and seconds
+   - Update the respective HTML elements
+8. **Add** Pause and Resume functionality:
+   - Pause stops the timer without resetting remaining time
+   - Resume continues the countdown from remaining time
+9. **Add** Cancel/Reset functionality:
+   - Stop the timer
+   - Reset remaining time and display to zero
+   - Disable/enable buttons accordingly
+10. **Trigger** all actions via button clicks and repeat the process for new inputs.
+11. **End**.
+
+<img width="1227" height="688" alt="image" src="https://github.com/user-attachments/assets/7dea098f-3536-4375-a5be-4c3a62e60ccf" />
+
 
 More projects will be added soon
