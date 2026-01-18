@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (14)
+# Web-Development-Mini-Projects - TOTAL (16)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -302,6 +302,58 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 11. **End**.
 
 <img width="1227" height="688" alt="image" src="https://github.com/user-attachments/assets/7dea098f-3536-4375-a5be-4c3a62e60ccf" />
+
+# PROJECT - 15 : Tip Calculator (HTML, CSS, JavaScript)
+## Algorithm
+
+1. **Create** a basic HTML structure for the Tip Calculator interface.
+2. **Add** input fields for:
+   - Bill Amount
+   - Service Quality (Tip Percentage)
+   - Number of People
+3. **Add** output fields to display:
+   - Tip Amount
+   - Total Amount
+   - Amount Per Person
+   - Tip Per Person
+4. **Select** all required input and output elements using JavaScript.
+5. **Create** a function named `calculateTip()`.
+6. **Inside the function**:
+   - Read the bill amount, service percentage, and number of people.
+   - Convert input values to numbers using `parseFloat`.
+7. **Validate** inputs:
+   - Ensure the bill amount is a valid finite number greater than zero.
+   - Ensure the number of people is at least 1.
+8. **Calculate**:
+   - Tip amount using bill × service percentage.
+   - Total amount by adding tip to the bill.
+   - Per-person total amount.
+   - Per-person tip amount.
+9. **Format** all calculated values to two decimal places using `toFixed(2)`.
+10. **Update** the respective HTML elements with calculated values.
+11. **Attach** `input` event listeners to all input and select elements.
+12. **Recalculate** the values automatically whenever the user changes any input.
+13. **End**.
+
+<img width="1666" height="892" alt="image" src="https://github.com/user-attachments/assets/211e0655-962d-4e41-bb14-208966779243" />
+
+# PROJECT - 16 : Auto Typing Effect (HTML, CSS, JavaScript)
+## Algorithm
+
+1. **Create** a basic HTML structure containing an element to display the typing text.
+2. **Add** a class (e.g., `.auto-type`) to the target element.
+3. **Include** the Typed.js library using a CDN.
+4. **Initialize** the `Typed` object in JavaScript.
+5. **Provide** an array of strings to be typed dynamically.
+6. **Set** typing speed using `typeSpeed`.
+7. **Set** backspacing speed using `backSpeed`.
+8. **Enable** looping to repeat the typing animation continuously.
+9. **Add** a delay before backspacing starts.
+10. **Customize** the cursor character.
+11. **Enable** smart backspacing for smoother transitions.
+12. **Render** the typing animation on page load.
+13. **End**.
+<img width="679" height="250" alt="image" src="https://github.com/user-attachments/assets/99049098-2e85-4b48-8274-d071ddfb0c4b" />
 
 
 More projects will be added soon
