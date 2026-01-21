@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (16)
+# Web-Development-Mini-Projects - TOTAL (19)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -354,6 +354,52 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 12. **Render** the typing animation on page load.
 13. **End**.
 <img width="679" height="250" alt="image" src="https://github.com/user-attachments/assets/99049098-2e85-4b48-8274-d071ddfb0c4b" />
+
+# PROJECT - 17 : PERCENTAGE CALCULATOR
+## Algorithm
+1. **Create** a basic HTML structure containing input fields for number and percentage, a calculate button, and elements to display results.
+2. **Select** DOM elements using `getElementById` and `getElementsByClassName` for inputs, button, result displays, and error message.
+3. **Define** a function `calculatePercentage()` to handle the calculation logic.
+4. **Clear** any previous error messages at the start of each calculation.
+5. **Parse** the input values from the number and percentage fields using `parseFloat()`.
+6. **Validate** the inputs to ensure they are non-negative and the percentage is within 0-100 range.
+7. **Display** an error message if validation fails.
+8. **Calculate** the percentage amount using the formula: `(percent * amount) / 100`.
+9. **Calculate** the final result by adding the percentage amount to the original number.
+10. **Display** the percentage amount and final result in their respective HTML elements.
+11. **Attach** a click event listener to the calculate button that triggers the `calculatePercentage()` function.
+12. **End**.
+<img width="566" height="314" alt="image" src="https://github.com/user-attachments/assets/d2e1a31a-e954-4808-964f-d8130d703694" />
+
+# PROJECT - 18 : SAVINGS CALCULATOR
+## Algorithm
+1. **Create** a basic HTML structure with input fields for goal amount, current savings, and monthly contribution.
+2. **Add** Feather icons library via CDN for input field icons and button styling.
+3. **Select** all required DOM elements (inputs, button, progress bar, result container).
+4. **Attach** a click event listener to the calculate button.
+5. **Validate** user inputs ensuring all values are non-negative numbers.
+6. **Display** an error message if validation fails and exit the function.
+7. **Calculate** the remaining amount by subtracting current savings from goal amount.
+8. **Calculate** the number of months needed by dividing remaining amount by monthly contribution.
+9. **Update** the progress bar width based on the calculated percentage.
+10. **Display** the result message showing months to reach goal or a success message if already achieved.
+11. **End**.
+<img width="613" height="462" alt="image" src="https://github.com/user-attachments/assets/24da5391-ac10-4f0b-ba8b-9b14f17c3068" />
+
+# PROJECT - 19 : TO DO LIST
+## Algorithm
+1. **Initialize** global variables for the current filter state and load existing todos from localStorage.
+2. **Create** a `saveToDo()` function to persist the todos array to localStorage.
+3. **Create** a `renderToDo()` function to display todos based on the current filter (all, completed, pending).
+4. **Filter** the todos array according to the selected filter before rendering.
+5. **Generate** HTML elements dynamically for each todo with complete and delete action buttons.
+6. **Create** an `addToDo()` function to push new tasks to the todos array and clear the input field.
+7. **Create** a `toggleToDo()` function to switch the completed status of a todo item.
+8. **Create** a `deleteToDo()` function to remove a todo item from the array using splice.
+9. **Attach** event listeners to the add button, todo list (for delegation), and filter buttons.
+10. **Render** the initial todo list on page load by calling `renderToDo()`.
+11. **End**.
+ <img width="524" height="401" alt="image" src="https://github.com/user-attachments/assets/c05c2e5d-3eca-4c94-b03d-e0182f19f740" />
 
 
 More projects will be added soon
