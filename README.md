@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (19)
+# Web-Development-Mini-Projects - TOTAL (20)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -401,5 +401,18 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 11. **End**.
  <img width="524" height="401" alt="image" src="https://github.com/user-attachments/assets/c05c2e5d-3eca-4c94-b03d-e0182f19f740" />
 
+# PROJET - 20 : QUICK PORTFOLIO
+## Algorithm
+1. Initialize responsive navigation bar for seamless user experience.
+2. Render header section with dynamic introduction and call-to-action.
+3. Display profile image and about section with concise bio.
+4. Organize skills into visually distinct cards with icons.
+5. Present recent works in a grid layout with project images and links.
+6. Implement smooth scrolling for navigation links.
+7. Validate contact form fields before submission.
+8. Use external fonts and icons for modern UI aesthetics.
+9. Ensure mobile-friendly design with adaptive layouts.
+10. Add interactive menu button for mobile navigation toggle.
+<img width="1908" height="4896" alt="image" src="https://github.com/user-attachments/assets/0009e579-94b4-48db-aef1-f86b2ef6a005" />
 
 More projects will be added soon
