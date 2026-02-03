@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (20)
+# Web-Development-Mini-Projects - TOTAL (21)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -414,5 +414,24 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 9. Ensure mobile-friendly design with adaptive layouts.
 10. Add interactive menu button for mobile navigation toggle.
 <img width="1908" height="4896" alt="image" src="https://github.com/user-attachments/assets/0009e579-94b4-48db-aef1-f86b2ef6a005" />
+
+# PROJECT - 21 : AWESOME POSTS (API FETCHING)
+## ALGORITHM
+1. Wait for the DOM to fully load using the 'DOMContentLoaded' event.
+2. Select the container element where posts will be displayed ('.posts-container').
+3. Define the API endpoint URL for fetching posts.
+4. Create an asynchronous function 'fetchPosts' to handle data retrieval.
+5. Inside 'fetchPosts', send an HTTP GET request to the API endpoint.
+6. Parse the JSON response to obtain the list of posts.
+7. Clear any existing content or loading messages in the posts container.
+8. For each post in the retrieved data:
+    a. Call 'createPostElement' to generate a post card element.
+    b. Append the generated post card to the posts container.
+9. Define 'createPostElement' to:
+    a. Create an article element with the post's title and body.
+    b. Return the constructed article element.
+10. Invoke 'fetchPosts' to start the process and display posts on the page.
+
+<img width="1855" height="936" alt="image" src="https://github.com/user-attachments/assets/9a31cad2-4490-4605-bd6a-d5255628d211" />
 
 More projects will be added soon
