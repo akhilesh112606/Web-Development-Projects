@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (21)
+# Web-Development-Mini-Projects - TOTAL (24)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -433,5 +433,59 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 10. Invoke 'fetchPosts' to start the process and display posts on the page.
 
 <img width="1855" height="936" alt="image" src="https://github.com/user-attachments/assets/9a31cad2-4490-4605-bd6a-d5255628d211" />
+
+## PROJECT – 22 : Country Explorer (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Start** by creating the basic HTML document structure.
+2. **Design** the user interface using input fields, buttons, and a result display section.
+3. **Style** the webpage using CSS to ensure a clean and responsive layout.
+4. **Accept** the country name from the user through an input field.
+5. **Trigger** a JavaScript function when the search button is clicked.
+6. **Send** a request to the REST Countries API using the Fetch API.
+7. **Receive** the country data in JSON format.
+8. **Extract** important details such as country name, capital, population, region, and flag.
+9. **Display** the extracted country information dynamically on the webpage.
+10. **Handle** invalid inputs or API errors gracefully.
+11. **End** the process after displaying the result.
+
+
+## PROJECT – 23 : Movies Finder (HTML, CSS, JavaScript, API)
+
+## Algorithm
+
+1. **Start** by creating the HTML structure for the Movies Finder application.
+2. **Add** an input field for movie search and a search button.
+3. **Apply** CSS styling for better user interface and responsiveness.
+4. **Wait** for the user to enter a movie name.
+5. **Capture** the entered movie name using JavaScript.
+6. **Send** an API request to the OMDb API using Fetch.
+7. **Receive** the movie details in JSON format.
+8. **Verify** whether the movie exists in the response.
+9. **Extract** movie information such as title, poster, year, genre, and rating.
+10. **Display** the movie details dynamically on the webpage.
+11. **Show** an error message if the movie is not found.
+12. **End** the process after displaying the output.
+
+
+## PROJECT – 24 : Gemini AI Chat Application (HTML, CSS, JavaScript)
+
+## Algorithm
+
+1. **Start** by creating the HTML structure for the chat interface.
+2. **Design** input fields for user messages and a chat display area.
+3. **Style** the application using CSS for a clean chat experience.
+4. **Accept** the user’s message through the input box.
+5. **Trigger** a JavaScript function when the user sends a message.
+6. **Send** the user prompt to the Gemini AI API.
+7. **Receive** the AI-generated response from the API.
+8. **Parse** the response data.
+9. **Display** the AI response in the chat window.
+10. **Append** user and AI messages sequentially to maintain conversation history.
+11. **Handle** empty inputs and API errors properly.
+12. **End** the process after displaying the response.
+<img width="1354" height="589" alt="image" src="https://github.com/user-attachments/assets/6644c213-74e9-40b0-8b45-470516c41c44" />
+
 
 More projects will be added soon
