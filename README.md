@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (24)
+# Web-Development-Mini-Projects - TOTAL (25)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -487,5 +487,20 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 12. **End** the process after displaying the response.
 <img width="1354" height="589" alt="image" src="https://github.com/user-attachments/assets/6644c213-74e9-40b0-8b45-470516c41c44" />
 
+## PROJECT - 25 : CURRENCY CONVERTOR USING API
+
+## Algorithm
+1. **Start** by creating the HTML structure for the currency converter interface.
+2. **Design** input fields for the amount, currency dropdowns, and buttons for conversion and exchange rates.
+3. **Style** the application using CSS for a clean and user-friendly experience.
+4. **Accept** the user’s input for amount and selected currencies.
+5. **Trigger** a JavaScript function when the user clicks the convert or get rates button.
+6. **Send** a request to the ExchangeRate-API with the selected currencies and amount.
+7. **Receive** the conversion rate or exchange rates from the API.
+8. **Parse** the response data to extract relevant rates.
+9. **Display** the converted amount or exchange rates in the result area.
+10. **Handle** empty inputs and API errors gracefully, providing user feedback.
+
+<img width="628" height="511" alt="image" src="https://github.com/user-attachments/assets/1d3fdb5d-fe14-4132-9fc3-2d0d23a81ca4" />
 
 More projects will be added soon
