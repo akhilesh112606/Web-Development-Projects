@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (25)
+# Web-Development-Mini-Projects - TOTAL (26)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -502,5 +502,20 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 10. **Handle** empty inputs and API errors gracefully, providing user feedback.
 
 <img width="628" height="511" alt="image" src="https://github.com/user-attachments/assets/1d3fdb5d-fe14-4132-9fc3-2d0d23a81ca4" />
+
+## PROJECT - 26 : AI POWERED BACKGROUND REMOVER
+## Algorithm
+1. **Start** by creating the HTML structure for the background remover interface with upload area, image previews, and action buttons.
+2. **Design** a drag-and-drop zone and file input for image upload, along with "Remove Background" and "Download" buttons.
+3. **Style** the application using CSS for a clean, modern, and user-friendly experience.
+4. **Accept** the user's image via drag-and-drop or file selection, validating it is an image file.
+5. **Trigger** a JavaScript function to read the uploaded file using `FileReader` and display the original image preview.
+6. **Send** a POST request to the Slazzer API (`/v2.0/remove_image_background`) with the image as `FormData`.
+7. **Receive** the processed image blob with the background removed from the API response.
+8. **Parse** the response by converting the blob into an object URL for display.
+9. **Display** the processed (background-removed) image alongside the original in the preview area.
+10. **Handle** loading states, API errors, and invalid uploads gracefully, providing visual feedback to the user.
+
+<img width="869" height="417" alt="image" src="https://github.com/user-attachments/assets/c33101bc-a9f6-4690-8ff7-50380a27f7c0" />
 
 More projects will be added soon
