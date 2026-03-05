@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (26)
+# Web-Development-Mini-Projects - TOTAL (27)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -517,5 +517,18 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 10. **Handle** loading states, API errors, and invalid uploads gracefully, providing visual feedback to the user.
 
 <img width="869" height="417" alt="image" src="https://github.com/user-attachments/assets/c33101bc-a9f6-4690-8ff7-50380a27f7c0" />
+
+## PROJECT - 27: DONATION WEBPAGE (REACT)
+## Algorithm
+1. **Start** by creating the HTML structure for the donation interface with header, donation form, amount selection buttons, donor information fields, and footer sections.
+2. **Design** a donation form layout with preset amount options, custom amount input, donor name/email fields, donation message textarea, and "Donate Now" action button.
+3. **Style** the application using CSS for an attractive, trust-building, and user-friendly donation experience with responsive design across all devices.
+4. **Accept** user input including selected donation amount (preset or custom), donor name, email, and optional donation message via form fields and validation checks.
+5. **Trigger** a JavaScript function to validate the form data, ensuring the donation amount is positive, email is valid, and required fields are completed before processing.
+6. **Send** a POST request to the payment gateway API (`/api/process-donation`) with the validated donation details and donor information as JSON payload.
+7. **Receive** the processed transaction response from the API containing transaction ID, confirmation status, and payment method details.
+8. **Parse** the response by extracting relevant data (transaction ID, timestamp, amount confirmed) and storing it for receipt generation.
+9. **Display** a confirmation message with donation receipt details, transaction ID, and thank you message alongside donor name and donation amount in the interface.
+10. **Handle** loading states during processing, API errors with user-friendly error messages, validation errors for form fields, and provide visual feedback (success/error modals, spinners) throughout the donation process.
 
 More projects will be added soon
