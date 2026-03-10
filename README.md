@@ -531,4 +531,20 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 9. **Display** a confirmation message with donation receipt details, transaction ID, and thank you message alongside donor name and donation amount in the interface.
 10. **Handle** loading states during processing, API errors with user-friendly error messages, validation errors for form fields, and provide visual feedback (success/error modals, spinners) throughout the donation process.
 
+## PROJECT - 28: PROFILE CARD (REACT)
+## Algorithm
+1. **Start** by importing React to enable JSX and component functionality.
+2. **Define** a functional component named `ProfileCard` that accepts `props` as a parameter.
+3. **Extract** the `name` property from the props object to personalize the profile.
+4. **Define** static values for language, bio, and image URL that represent the profile information.
+5. **Create** an array containing the list of hobbies to be displayed.
+6. **Initialize** the JSX return statement with the main container div element with appropriate styling.
+7. **Render** an h1 element that displays a welcome message using the extracted name.
+8. **Include** an img element with the profile image URL, alt text, and styling for rounded corners.
+9. **Add** paragraphs and strong elements to display the favorite language and bio information.
+10. **Create** an unordered list that maps over the hobbies array to display each hobby with numbering.
+<img width="1707" height="759" alt="image" src="https://github.com/user-attachments/assets/5154d2de-8841-4cdb-9bbf-936793d513c8" />
+
 More projects will be added soon
+
+
