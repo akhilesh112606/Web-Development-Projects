@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (28)
+# Web-Development-Mini-Projects - TOTAL (29)
 ## PROJECT - 1 : Movie Ranking Webpage (HTML)
 ## Algorithm
 
@@ -544,6 +544,23 @@ https://github.com/user-attachments/assets/4eb139bd-db16-4ee7-ad36-b48e9f6244d7
 9. **Add** paragraphs and strong elements to display the favorite language and bio information.
 10. **Create** an unordered list that maps over the hobbies array to display each hobby with numbering.
 <img width="1707" height="759" alt="image" src="https://github.com/user-attachments/assets/5154d2de-8841-4cdb-9bbf-936793d513c8" />
+
+## PROJECT - 29: SYSTEM VIEW API (NODE.JS)
+
+## Algorithm
+1. **Start** by importing required core Node.js modules: `http`, `os`, `process`, and `url`.
+2. **Create** helper functions to format raw system values, such as bytes into readable memory units and seconds into uptime format.
+3. **Define** a `getCpuInfo` function to collect CPU model, total cores, architecture, and load average.
+4. **Define** a `getMemoryInfo` function to collect total and free memory from the operating system.
+5. **Define** a `canGetOsInfo` function to collect OS-level details including type, platform, release, hostname, and uptime.
+6. **Create** additional utility functions to fetch current user information, process details, and network interface data.
+7. **Initialize** an HTTP server using `http.createServer` and parse incoming request URLs.
+8. **Set** the response header to `application/json` to ensure API responses are returned in JSON format.
+9. **Handle** the root route `/` to return project metadata and available API endpoints.
+10. **Map** each endpoint (`/cpu`, `/memory`, `/user`, `/process`, `/network`, `/os`) to its corresponding function and return structured JSON output.
+11. **Return** a `404` response for invalid paths that are not defined in the API.
+12. **Start** the server on port `5000` and log the local server URL in the console.
+
 
 More projects will be added soon
 
